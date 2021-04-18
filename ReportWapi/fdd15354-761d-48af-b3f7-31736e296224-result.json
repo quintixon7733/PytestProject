@@ -1,0 +1,41 @@
+{
+  "name": "testGetURL",
+  "status": "passed",
+  "description": "Get URL",
+  "start": 1618388276110,
+  "stop": 1618388276692,
+  "uuid": "8c851318-0d50-4bd8-95c9-c333b492a096",
+  "historyId": "63fd0811bb33f283acc9c0e61cbcf32c",
+  "testCaseId": "b107935afc5cbed42736c05b93ed589b",
+  "fullName": "TestWapi#testGetURL",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestWapi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "4688-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestWapi"
+    }
+  ]
+}

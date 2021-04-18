@@ -1,0 +1,41 @@
+{
+  "name": "testGetContent",
+  "status": "passed",
+  "description": "Validate Gets",
+  "start": 1618388273740,
+  "stop": 1618388274345,
+  "uuid": "6d4c1e2d-2a0c-4ecd-aa6d-3ec3ab692902",
+  "historyId": "0b6df9297d17355b97347e59d74d8719",
+  "testCaseId": "8e322a20e04d1fd233426b6eb4570a2e",
+  "fullName": "TestWapi#testGetContent",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestWapi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "4688-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestWapi"
+    }
+  ]
+}

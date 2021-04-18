@@ -1,0 +1,41 @@
+{
+  "name": "test_PATCH",
+  "status": "passed",
+  "description": "PATCH DATA",
+  "start": 1618388278837,
+  "stop": 1618388279740,
+  "uuid": "f38381b8-4c2c-48e2-a669-1d4705b8f3e0",
+  "historyId": "2651ea472ffbc38965e8f27029c193cc",
+  "testCaseId": "0200d0a6ef0f62894514b3dd1abafdf4",
+  "fullName": "TestWapi#test_PATCH",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestWapi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "4688-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestWapi"
+    }
+  ]
+}

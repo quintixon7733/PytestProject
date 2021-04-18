@@ -1,0 +1,41 @@
+{
+  "name": "testGetHeader",
+  "status": "passed",
+  "description": "Get headers",
+  "start": 1618388274934,
+  "stop": 1618388275530,
+  "uuid": "8423524f-267a-4b5b-8245-cae99aa05e99",
+  "historyId": "3a2354ea1a0b930ac39f4c14bdba25d7",
+  "testCaseId": "9bde487dd4d410d2eda12e3e78fcb15f",
+  "fullName": "TestWapi#testGetHeader",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestWapi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "4688-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestWapi"
+    }
+  ]
+}

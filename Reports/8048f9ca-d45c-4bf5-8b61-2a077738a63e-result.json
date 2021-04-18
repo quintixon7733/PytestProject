@@ -1,0 +1,78 @@
+{
+  "name": "test_InvalidLogin",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'dashboard' in 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials'\n +  where 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"49bc140fa747ac5f46cc009d8767ee32\")>.current_url",
+    "trace": "test_setup = None\n\n    @allure.description(\"Validate OrangeHRM with valid login credentials\")\n    @allure.severity(severity_level=\"NORMAL\")\n    def test_InvalidLogin(test_setup):\n        driver.get(\"https://opensource-demo.orangehrmlive.com\")\n        driver.find_element_by_id(\"txtUsername\").clear()\n        enter_username(\"admin\")\n        driver.find_element_by_id(\"txtPassword\").clear()\n        enter_password(\"admin1234\")\n        driver.find_element_by_id(\"btnLogin\").click()\n        try:\n>           assert \"dashboard\" in driver.current_url\nE           assert 'dashboard' in 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials'\nE            +  where 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"49bc140fa747ac5f46cc009d8767ee32\")>.current_url\n\nTestLogin.py:44: AssertionError"
+  },
+  "description": "Validate OrangeHRM with valid login credentials",
+  "steps": [
+    {
+      "name": "Enter username as 'admin'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "username",
+          "value": "'admin'"
+        }
+      ],
+      "start": 1618721093129,
+      "stop": 1618721093205
+    },
+    {
+      "name": "Enter password as 'admin1234'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "password",
+          "value": "'admin1234'"
+        }
+      ],
+      "start": 1618721093265,
+      "stop": 1618721093353
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Invalid Credentials",
+      "source": "48a61508-1448-4f13-b3b9-ae8867d3c1b4-attachment.png",
+      "type": "image/png"
+    }
+  ],
+  "start": 1618721088887,
+  "stop": 1618721095033,
+  "uuid": "788b33ee-2d9c-4101-bc29-bc4bde21471c",
+  "historyId": "3681dd2a0ba6bca068b6e5a7942f78f3",
+  "testCaseId": "9efe1ebda15728911cfc31a04322fb0c",
+  "fullName": "TestLogin#test_InvalidLogin",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "NORMAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "18120-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestLogin"
+    }
+  ]
+}

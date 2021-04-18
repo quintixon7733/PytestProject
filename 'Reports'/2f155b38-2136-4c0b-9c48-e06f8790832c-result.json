@@ -1,0 +1,74 @@
+{
+  "name": "test_validateLogin",
+  "status": "passed",
+  "description": "Validate OrangeHRM with valid login credentials",
+  "steps": [
+    {
+      "name": "Enter username as 'admin'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "username",
+          "value": "'admin'"
+        }
+      ],
+      "start": 1618583898068,
+      "stop": 1618583898148
+    },
+    {
+      "name": "Enter password as 'admin123'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "password",
+          "value": "'admin123'"
+        }
+      ],
+      "start": 1618583898195,
+      "stop": 1618583898258
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Invalid Credentials",
+      "source": "777bd2a0-9afd-45a1-a1d8-d3141cc7daa7-attachment.png",
+      "type": "image/png"
+    }
+  ],
+  "start": 1618583893374,
+  "stop": 1618583902477,
+  "uuid": "bf1347c4-d53e-49c9-bd56-04ffb8708054",
+  "historyId": "977d91b5b9e489c0f4e560e5cebdae4b",
+  "testCaseId": "493609f97417cd3ab427af254db07216",
+  "fullName": "TestLogin#test_validateLogin",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "16368-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestLogin"
+    }
+  ]
+}

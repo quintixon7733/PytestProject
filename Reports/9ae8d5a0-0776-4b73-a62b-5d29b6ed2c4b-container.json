@@ -1,0 +1,24 @@
+{
+  "uuid": "ff424a68-8d0f-4013-874f-da50d6431afe",
+  "children": [
+    "788b33ee-2d9c-4101-bc29-bc4bde21471c"
+  ],
+  "befores": [
+    {
+      "name": "test_setup",
+      "status": "passed",
+      "start": 1618721087252,
+      "stop": 1618721088885
+    }
+  ],
+  "afters": [
+    {
+      "name": "test_setup::0",
+      "status": "passed",
+      "start": 1618721095043,
+      "stop": 1618721098090
+    }
+  ],
+  "start": 1618721087252,
+  "stop": 1618721098091
+}

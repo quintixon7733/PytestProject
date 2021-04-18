@@ -1,0 +1,41 @@
+{
+  "name": "test_POST",
+  "status": "passed",
+  "description": "POST DATA",
+  "start": 1618388277307,
+  "stop": 1618388278220,
+  "uuid": "66083d83-7f67-4baf-a288-e6a07432f5a6",
+  "historyId": "8bc0d901b6bfd3e339ee1109011b70b5",
+  "testCaseId": "01121ae0199bf8b3efded5c52ef25321",
+  "fullName": "TestWapi#test_POST",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "CRITICAL"
+    },
+    {
+      "name": "suite",
+      "value": "TestWapi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-IG1GKMN"
+    },
+    {
+      "name": "thread",
+      "value": "4688-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestWapi"
+    }
+  ]
+}

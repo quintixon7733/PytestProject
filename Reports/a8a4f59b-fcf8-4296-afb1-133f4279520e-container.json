@@ -1,0 +1,20 @@
+{
+  "uuid": "f5f1c5a6-729d-4944-8b3e-c5da850a506f",
+  "children": [
+    "b7b04399-8ac6-476e-a0a5-6cb75caac91e"
+  ],
+  "befores": [
+    {
+      "name": "test_setup",
+      "status": "broken",
+      "statusDetails": {
+        "message": "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=89.0.4389.128)\n\n",
+        "trace": "  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"C:\\Users\\Pieot\\PycharmProjects\\SeleniumProject\\PytestProject\\TestLogin.py\", line 10, in test_setup\n    driver = webdriver.Chrome(\"C:\\drivers\\chromedriver.exe\")\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 76, in __init__\n    RemoteWebDriver.__init__(\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 157, in __init__\n    self.start_session(capabilities, browser_profile)\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 252, in start_session\n    response = self.execute(Command.NEW_SESSION, parameters)\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\users\\pieot\\pycharmprojects\\seleniumproject\\pytestproject\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n"
+      },
+      "start": 1618720482890,
+      "stop": 1618721086962
+    }
+  ],
+  "start": 1618720482890,
+  "stop": 1618721087247
+}
